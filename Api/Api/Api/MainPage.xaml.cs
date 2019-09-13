@@ -1,4 +1,5 @@
 ﻿using Api.Services;
+using Api.ViewModels;
 using Refit;
 using System;
 using System.Collections.Generic;
@@ -18,17 +19,10 @@ namespace Api
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new RestaurantsViewModel();
         }
 
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-            await CallApi();
-        }
-        async Task CallApi()
-        {
-            var nsAPI = RestService.For<IApiServices>("https://maps.googleapis.com");
-            var restaurants = await nsAPI.getNearBySearch("18.491955, -69.93689");
-        }
+       
+        
     }
 }

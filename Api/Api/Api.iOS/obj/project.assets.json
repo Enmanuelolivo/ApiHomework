@@ -6048,11 +6048,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.iOS\\Api.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.iOS\\Api.iOS.csproj",
       "projectName": "Api.iOS",
-      "projectPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.iOS\\Api.iOS.csproj",
+      "projectPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.iOS\\Api.iOS.csproj",
       "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.iOS\\obj\\",
+      "outputPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6073,8 +6073,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj": {
-              "projectPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj"
+            "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj": {
+              "projectPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj"
             }
           }
         }

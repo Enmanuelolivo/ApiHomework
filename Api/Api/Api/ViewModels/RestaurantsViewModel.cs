@@ -1,6 +1,10 @@
-﻿using Api.Services;
+﻿using Api.Model;
+using Api.Services;
+using Refit;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -9,11 +13,13 @@ using Xamarin.Forms;
 
 namespace Api.ViewModels
 {
-    public class RestaurantsViewModel
+    public class RestaurantsViewModel: INotifyPropertyChanged
     {
-        IApiServices apiServices = new ApiServices();
+        public ObservableCollection<Result>Restaurants { get; set; }
         public ICommand getNearBySearchCommand { get; set; }
-        public string Rnc { get; set; }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        
     
     public RestaurantsViewModel()
     {
@@ -22,7 +28,6 @@ namespace Api.ViewModels
             await getNearBySearch();
         });
 
-        getNearBySearchCommand.Execute(null);
     }
 
 
@@ -33,8 +38,11 @@ namespace Api.ViewModels
             var current = Connectivity.NetworkAccess;
             if (current == NetworkAccess.Internet)
             {
-                var result = await apiServices.getNearBySearch("18.491955, -69.93689");
-            }
+                    var nsAPI = RestService.For<IApiServices>("https://maps.googleapis.com");
+                    var restaurants = await nsAPI.getNearBySearch();
+
+                    Restaurants = new ObservableCollection<Result>(restaurants.Results);
+                }
             else
             {
                 await App.Current.MainPage.DisplayAlert("Error", "You don't have internet connection", "Ok");

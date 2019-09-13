@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.Android\\Api.Android.csproj": {}
+    "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.Android\\Api.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.Android\\Api.Android.csproj": {
+    "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.Android\\Api.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.Android\\Api.Android.csproj",
+        "projectUniqueName": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.Android\\Api.Android.csproj",
         "projectName": "Api.Android",
-        "projectPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.Android\\Api.Android.csproj",
+        "projectPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.Android\\Api.Android.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api.Android\\obj\\",
+        "outputPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj": {
-                "projectPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj"
+              "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj": {
+                "projectPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj": {
+    "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\enman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\enman\\source\\repos\\Api\\Api\\Api\\obj\\",
+        "outputPath": "C:\\Users\\enman\\Documents\\Desarrollo\\Api\\Api\\Api\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

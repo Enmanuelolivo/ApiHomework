@@ -54,10 +54,10 @@ namespace Api.Services
         }
 
         /// <inheritdoc />
-        Task<Restaurants> IApiServices.getNearBySearch(string Results)
+        Task<Restaurants> IApiServices.getNearBySearch()
         {
-            var arguments = new object[] { Results };
-            var func = requestBuilder.BuildRestResultFuncForMethod("getNearBySearch", new Type[] { typeof(string) });
+            var arguments = new object[] {  };
+            var func = requestBuilder.BuildRestResultFuncForMethod("getNearBySearch", new Type[] {  });
             return (Task<Restaurants>)func(Client, arguments);
         }
     }
