@@ -1,0 +1,15 @@
+C:\Users\enman\source\repos\Api\Api\Api\bin\Debug\netstandard2.0\Api.deps.json
+C:\Users\enman\source\repos\Api\Api\Api\bin\Debug\netstandard2.0\Api.dll
+C:\Users\enman\source\repos\Api\Api\Api\bin\Debug\netstandard2.0\ref\Api.dll
+C:\Users\enman\source\repos\Api\Api\Api\bin\Debug\netstandard2.0\Api.pdb
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.csprojAssemblyReference.cache
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.AssemblyInfoInputs.cache
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.AssemblyInfo.cs
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.dll
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\ref\Api.dll
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.pdb
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\Api.csproj.Fody.CopyLocal.cache
+C:\Users\enman\source\repos\Api\Api\Api\obj\Debug\netstandard2.0\XamlC.stamp
